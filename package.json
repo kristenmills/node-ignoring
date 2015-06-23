@@ -1,6 +1,6 @@
 {
   "name": "ignoring",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A tool for managing and creating .gitignores",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kristenmills/node-ignoring/issues"
   },
-  "homepage": "https://github.com/kristenmills/node-ignoring#readme"
+  "homepage": "https://github.com/kristenmills/node-ignoring#readme",
+  "dependencies": {
+    "commander": "^2.8.1"
+  }
 }
