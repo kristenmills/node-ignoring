@@ -4,7 +4,9 @@ Tool for managing and creating your `.gitignore`.  A node port of my ruby gem [i
 
 ## Installation
 
+```
 npm install ignoring
+```
 
 ## Usage
 
