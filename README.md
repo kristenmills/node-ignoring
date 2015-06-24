@@ -6,7 +6,7 @@ Tool for managing and creating your `.gitignore`.  A node port of my ruby gem [i
 
 npm install ignoring
 
-## Usage (CLI)
+## Usage
 
 This tool is realtively simple to use.  You can use either `ignoring` or `gitignore`. For these examples, I will be using `gitignore`.
 
@@ -67,6 +67,9 @@ Print a specific language to STDOUT
     $ gitignore show -t Node
     $ gitignore show --template Node
 
+## Custom templates
+
+To create custom templates, make a directory `$HOME/.ignoring` and create files `[TEMPLATE_NAME].gitignore`.  Anything that looks for templates will pull from here before looking on github so keep that in mind for name conflicts. In the future, I will allow for customizing that directory.
 
 ## Contributing
 
