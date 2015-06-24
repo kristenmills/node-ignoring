@@ -26,8 +26,9 @@
   "homepage": "https://github.com/kristenmills/node-ignoring#readme",
   "dependencies": {
     "bluebird": "^2.9.30",
+    "cli-table": "^0.3.1",
     "commander": "^2.8.1",
     "nodegit": "^0.4.1",
-    "request-promise": "^0.4.2"
+    "request": "^2.58.0"
   }
 }
